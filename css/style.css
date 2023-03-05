@@ -85,7 +85,7 @@ ul {
 
 :root {
   --index: calc(1vw + 1vh);
-  --transition: 1.25s cubic-bezier(.2, .6, 0, 1);
+  --transition: 1.25s cubic-bezier(0.2, 0.6, 0, 1);
 }
 
 html,
@@ -100,7 +100,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: var(--index);
-  background: url(/img/bg.jpg);
+  background: url(../img/bg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -135,6 +135,7 @@ body {
   will-change: transform;
   -webkit-box-shadow: rgb(0, 0, 0) 0 0 30px 10px;
           box-shadow: rgb(0, 0, 0) 0 0 30px 10px;
+  border-radius: 8px;
 }
 .slider__item:hover {
   -webkit-transform: scale(1.04);
