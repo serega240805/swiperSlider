@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Muller;
+    font-weight: 100;
+    font-style: normal;
+    src: local("Suisse Int'l"),
+        url("../fonts/Suisse Int'l.woff2"),
+        url("../fonts/Suisse Int'l.woff"),
+        url("../fonts/Suisse Int'l.eot");
+    font-display: swap;
+}
